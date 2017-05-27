@@ -1,0 +1,31 @@
+a {
+    text-decoration: none;
+    color: #cb2aff;
+}
+
+.numbers {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: bottom;
+}
+
+.numbers a {
+    width: 40px;
+    height: 40px;
+    padding: 0 5px;
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+}
+
+.numbers a:hover {
+    color: #fff;
+    background: #cb2aff;
+}
+
+body > a:nth-child(2) {
+    margin-left: 20px;
+}
+
+body > a:nth-last-child(2) {
+    margin-right: 20px;
+}
